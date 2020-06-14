@@ -18,3 +18,7 @@ Create a Python class called PizzaOrder that has following capabilities.
 In the code, you will create a order_robot function that creates 10 pizza orders using the class you created.
 
 order_robot function will print each order detail (string representation) and will sort the orders by the order amount.
+
+# References
+- https://www.cs.colorado.edu/~kena/classes/5448/f12/presentation-materials/singh.pdf
+- https://www.csee.umbc.edu/courses/671/fall12/notes/python/07python_classes.pdf
