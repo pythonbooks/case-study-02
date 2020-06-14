@@ -1,5 +1,12 @@
 #!/usr/bin/bash python3
 
+"""
+This script demonstrate Object-oriented programming. 
+The PizzaOrder class represent one pizza order transaction from a custoomer.
+This class defines a minimal set of attributes but can be expanded to include additional attributes
+such as payment methods (credit or cash), service type(delivery, pickup, or dine-in).
+"""
+
 class PizzaOrder:
 
     def __init__(self, first_name, last_name, order_date, order_amount):
