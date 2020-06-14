@@ -8,11 +8,13 @@ import pizza_order
 
 fake= Faker()
 
-orders = []              # initialize a list to hold the genrated pizza orders
+orders = []              # initialize a list to hold the simulated pizza orders
 
 
-for i in range(10):  # loop through the number of entries 
-                                         # generate one fake observation/person 
+# Simulate 10 pizza orders
+for i in range(10):  
+  
+    # generate one fake pizza order at a time 
     order = pizza_order.PizzaOrder(        \
         fake.first_name(),       \
         fake.last_name(),      \
@@ -22,7 +24,7 @@ for i in range(10):  # loop through the number of entries
     
     orders.append(order)   
 
-
+# sort the orders by the order amount
 orders_sorted  = sorted(orders, key=operator.attrgetter("order_amount"))
 
 for order in orders_sorted:
