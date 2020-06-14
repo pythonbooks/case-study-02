@@ -1,4 +1,5 @@
-# Case Study No 2. Object-Oriented Programming
+# Case Study No 2
+## Object-Oriented Programming
 
 Write a Python script that implements following requirements:
 
